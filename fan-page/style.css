@@ -1,29 +1,63 @@
 body {
-  background-color: teal;
+  background-color: steelblue;
+  color: black;
   max-width: 100%;
+  font-family: Roboto;
+  font-size: larger;
+  padding-top: 20px;
 }
 
 header {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-align-items: center;
   align-items: center;
-  color: white;
   margin: 0 auto;
 }
 
-main {
+#header-image img {
   max-width: 80%;
-  display: -webkit-flex;
-  display: -ms-flex;
+  height: auto;
+}
+
+#header-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section {
+  max-width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
-main p {
-  margin: 0 auto;
+h1,
+h2 {
+  color: white;
+  font-family: "Playfair Display";
+  margin: 0;
+}
+
+p {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+a {
+  color: gold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-between;
 }
