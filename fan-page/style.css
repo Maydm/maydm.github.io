@@ -1,0 +1,29 @@
+body {
+  background-color: teal;
+  max-width: 100%;
+}
+
+header {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+}
+
+main {
+  max-width: 80%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+main p {
+  margin: 0 auto;
+}

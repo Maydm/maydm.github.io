@@ -1,0 +1,42 @@
+#zoo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mammals,
+#birds,
+#reptiles,
+#fish {
+  flex: 0 0 45%;
+}
+
+#mammals img,
+#birds img,
+#reptiles img,
+#fish img {
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.pen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 300px;
+  border: 5px solid #795548;
+  background-color: limegreen;
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animal {
+  flex: 0 0 45%;
+  margin: 10px;
+}

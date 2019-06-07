@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Pokedex_copy"></div>
+
+    <div class="Pokedex">
+      <div class="trapFlipped"><div class="rectangle topborder"></div></div>
+      <div class="trapFlipped_inner">
+        <div class="rectangle_inner topborder"></div>
+      </div>
+      <div class="MainLightBG">
+        <div class="MainLight">
+          <div class="MainLightShine"><div class="MainLightShiner"></div></div>
+        </div>
+      </div>
+      <div class="redlight"><div class="redlight_inner"></div></div>
+      <div class="yellowlight"><div class="yellowlight_inner"></div></div>
+      <div class="greenlight"><div class="greenlight_inner"></div></div>
+
+      <div class="PokedexDisplay">
+        <h3 id="PokemonName">ivysaur</h3>
+        <img
+          id="PokemonImage"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+        />
+        <h3>Types:</h3>
+        <ul id="PokemonList">
+          <li>Grass</li>
+          <li>Earth</li>
+        </ul>
+        <h3>Height:</h3>
+        <span id="PokemonHeight">5</span>
+        <h3>Weight:</h3>
+        <span id="PokemonWeight">60</span>
+      </div>
+
+      <div class="depthbarLeft"></div>
+      <div class="AnalogStick"><div class="AnalogStick_inner"></div></div>
+      <div class="depthbarBottom"></div>
+      <div class="depthbarRight"></div>
+      <div class="longlight red"></div>
+      <div class="longlight blue"></div>
+      <div class="dpad">
+        <div class="vert"></div>
+        <div class="horz"></div>
+      </div>
+      <div class="dpad_copy">
+        <div class="vert"></div>
+        <div class="horz"></div>
+      </div>
+      <div class="greenbutton"></div>
+    </div>
+
+    <div class="container">
+      <h1 class="text-center">Pokédex</h1>
+      <p class="text-center">
+        Based on
+        <a href="https://codepen.io/KehranC/pen/LdQwmp" target="_blank">
+          Pokédex by Kehran Carr
+        </a>
+      </p>
+      <p>Enter a number or name of a pokemon to get its stats.</p>
+      <input type="text" id="pokemonToGet" />
+      <button onClick="getPokemon()">Get Pokemon</button>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
