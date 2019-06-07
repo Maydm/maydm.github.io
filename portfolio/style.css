@@ -1,3 +1,44 @@
-body {
+header {
+  min-height: 100vh;
+  margin-top: 55px;
+  background-image: url("https://raw.githubusercontent.com/Maydm/web-dev/master/assets/abstract-background-blur-949587.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+main {
   scroll-behavior: smooth;
+}
+
+section {
+  align-items: center;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+#portfolio {
+  background-color: red;
+  color: white;
+  justify-content: center;
+}
+
+.portfolio-item {
+  width: 30%;
+  margin: 10px;
+}
+
+#about {
+  background-color: green;
+  color: white;
+}
+
+#about img {
+  border-radius: 50%;
 }
