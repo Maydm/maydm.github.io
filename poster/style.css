@@ -1,12 +1,14 @@
-#poster {
-  margin: 0 auto;
-  width: 60%;
-  min-height: 100%;
-  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+h1 {
+  text-align: center;
 }
 
 #poster {
+  margin: 0 auto;
   padding: 50px;
+  width: 60%;
+  min-height: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
