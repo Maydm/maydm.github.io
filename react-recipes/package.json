@@ -18,7 +18,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ejbostian.github.io/react-recipes/",
   "devDependencies": {
     "gh-pages": "^1.2.0"
   }
